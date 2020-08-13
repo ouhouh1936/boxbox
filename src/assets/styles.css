@@ -1,63 +1,35 @@
-.app {
+.box .boxcol1 {
   width: 100%;
-  height: 100vh;
+  height: 80px;
+  background-color: red;
+}
+.box .boxcol2 {
+  width: 100%;
+  height: 620px;
+  background-color: blue;
 
   display: flex;
   flex-direction: row;
 }
-.app .app__col1 {
-  width: 100px;
-  height: 100%;
-
-  background-color: #70a1ff;
+.boxcol2 .boxcol3 {
+  width: 50%;
+  height: 620px;
+  background-color: blueviolet;
 }
-.app__col2 {
-  width: 100%;
-  height: 100%;
-
-  background-color: #5352ed;
-}
-.app .app__col1 .box__col1 {
-  width: 100%;
-  height: 33.3333333333%;
-
-  background-color: #d980fa;
-}
-.app .app__col1 .box__col2 {
-  width: 100%;
-  height: 33.3333333333%;
-
-  background-color: #93b5e1;
-}
-.app .app__col1 .box__col3 {
-  width: 100%;
-  height: 33.3333333333%;
-
-  background-color: #df5e88;
-}
-.app .app__col2 .mac__col1 {
-  width: 100%;
-  height: 50%;
-
-  background-color: #f6efa6;
-}
-.app .app__col2 .mac__col2 {
-  width: 100%;
-  height: 50%;
-
-  background-color: #1dd3bd;
+.boxcol2 .boxcol4 {
+  width: 50%;
+  height: 620px;
+  background-color: brown;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
-.app .app__col2 .mac__col2 .gram__col1 {
-  width: 50%;
-  height: 100%;
-
-  background-color: #ebcc8d;
+.boxcol4 .boxcol5 {
+  width: 100%;
+  height: 420px;
+  background-color: chartreuse;
 }
-.app .app__col2 .mac__col2 .gram__col2 {
-  width: 50%;
-  height: 100%;
-
-  background-color: #ce7feb;
+.boxcol4 .boxcol6 {
+  width: 100%;
+  height: 200px;
+  background-color: darkblue;
 }
